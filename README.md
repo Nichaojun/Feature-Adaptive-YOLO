@@ -95,3 +95,7 @@ python train.py --data coco.yaml --cfg yolov5n.yaml --weights '' --batch-size 12
 
 </details>
 
+## <div align="center">Improvement</div>
+We will provide various modules, which can be used to replicate IA-YOLO, HDIP-YOLO, etc
+## <div align="center">Quick Start Examples</div>
+

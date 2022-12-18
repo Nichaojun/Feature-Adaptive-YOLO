@@ -99,7 +99,5 @@ python train.py --data coco.yaml --cfg yolov5n.yaml --weights '' --batch-size 12
 In the HDIP.py, each filter and some other modules are included.
 
 ## <div align="center">Future work</div>
-SuperYOLO: Super Resolution Assisted Object Detection in Multimodal Remote Sensing Imagery
-⭐ This code will be completely released after our [article](https://arxiv.org/abs/2209.13351) is received！！！！⭐ 
-⭐ Please wait patiently！！！Thank you！！！⭐ 
+⭐ This code will be completely released after our article is received！！！！⭐ ⭐ Please wait patiently！！！Thank you！！！⭐ 
 

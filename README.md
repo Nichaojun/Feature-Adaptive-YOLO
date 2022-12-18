@@ -101,3 +101,6 @@ In the HDIP.py, each filter and some other modules are included.
 ## <div align="center">Future work</div>
 ⭐ This code will be completely released after our article is received！！！！⭐ ⭐ Please wait patiently！！！Thank you！！！⭐ 
 
+## <div align="center">Acknowledgements</div>
+This code is built on [YOLOv5 (PyTorch)](https://github.com/ultralytics/yolov5). We thank the authors for sharing the codes.
+

@@ -1,106 +1,97 @@
-
-<!--
-<a align="center" href="https://ultralytics.com/yolov5" target="_blank">
-<img width="800" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/banner-api.png"></a>
--->
-
-</div>
-
-## <div align="center">Documentation</div>
-
-See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on training, testing and deployment.
-
-## <div align="center">Quick Start Examples</div>
-
-<details open>
-<summary>Install</summary>
-
-Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
-[**Python>=3.7.0**](https://www.python.org/) environment, including
-[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
-
+# Image-Adaptive YOLO for Object Detection in Adverse Weather Conditions
+####  Accepted by AAAI 2022 [[arxiv]](https://arxiv.org/abs/2112.08088) 
+Wenyu Liu, Gaofeng Ren, Runsheng Yu, Shi Guo, [Jianke Zhu](https://person.zju.edu.cn/jkzhu/645901.html), [Lei Zhang](https://web.comp.polyu.edu.hk/cslzhang/)
+      
+![image](https://user-images.githubusercontent.com/24246792/146731560-fa69fe86-fbf8-4a96-8bd8-a500490ec41d.png)
+# Update
+The image-adaptive filtering techniques used in the segmentation task can be found in our TCSVT 2023 paper.
+#### "Improving Nighttime Driving-Scene Segmentation via Dual Image-adaptive Learnable Filters". [[arxiv]](https://arxiv.org/abs/2207.01331) [[code]]( https://github.com/wenyyu/IA-Seg)
+# Installation
 ```bash
-git clone https://github.com/ultralytics/yolov5  # clone
-cd yolov5
-pip install -r requirements.txt  # install
+$ git clone https://github.com/wenyyu/Image-Adaptive-YOLO.git  
+$ cd Image-Adaptive-YOLO  
+# Require python3 and tensorflow
+$ pip install -r ./docs/requirements.txt
 ```
 
-</details>
-
-<details open>
-<summary>Inference</summary>
-
-Inference with YOLOv5 and [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36)
-. [Models](https://github.com/ultralytics/yolov5/tree/master/models) download automatically from the latest
-YOLOv5 [release](https://github.com/ultralytics/yolov5/releases).
-
-```python
-import torch
-
-# Model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x, custom
-
-# Images
-img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
-
-# Inference
-results = model(img)
-
-# Results
-results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
+# Datasets and Models
+[PSCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) [RTTS](https://sites.google.com/view/reside-dehaze-datasets/reside-%CE%B2) [ExDark](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset/tree/master/Dataset)  
+Voc_foggy_test & Voc_dark_test & Models: [Google Drive](https://drive.google.com/drive/folders/1P0leuiGHH69kVxyNVFuiCdCYXyYquPqM), [Baidu Netdisk](https://pan.baidu.com/s/1GQE_80rEzs0uCrzauHxwdw) (key: iayl)  
+# Quick test
+```bash  
+# put checkpoint model in the corresponding directory 
+# change the data and model paths in core/config.py
+$ python evaluate.py 
 ```
 
-</details>
+![image](https://user-images.githubusercontent.com/24246792/146735760-4fcf7be9-fdd2-4694-8d91-d254144c52eb.png)
 
+# Train and Evaluate on the datasets
+1. Download VOC PASCAL trainval and test data
+```bashrc
+$ wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
+$ wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+$ wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
+```
+Extract all of these tars into one directory and rename them, which should have the following basic structure.
+```bashrc
 
-
-<details>
-<summary>Inference with detect.py</summary>
-
-`detect.py` runs inference on a variety of sources, downloading [models](https://github.com/ultralytics/yolov5/tree/master/models) automatically from
-the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases) and saving results to `runs/detect`.
-
-```bash
-python detect.py --source 0  # webcam
-                          img.jpg  # image
-                          vid.mp4  # video
-                          path/  # directory
-                          path/*.jpg  # glob
-                          'https://youtu.be/Zgi9g1ksQHc'  # YouTube
-                          'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
+VOC           # path:  /home/lwy/work/code/tensorflow-yolov3/data/VOC
+├── test
+|    └──VOCdevkit
+|        └──VOC2007 (from VOCtest_06-Nov-2007.tar)
+└── train
+     └──VOCdevkit
+         └──VOC2007 (from VOCtrainval_06-Nov-2007.tar)
+         └──VOC2012 (from VOCtrainval_11-May-2012.tar)
+                     
+$ python scripts/voc_annotation.py
+```
+2. Generate Voc_foggy_train and Voc_foggy_val dataset offline
+```bash  
+# generate ten levels' foggy training images and val images, respectively
+$ python ./core/data_make.py 
 ```
 
-</details>
-
-<details>
-<summary>Training</summary>
-
-The commands below reproduce YOLOv5 [COCO](https://github.com/ultralytics/yolov5/blob/master/data/scripts/get_coco.sh)
-results. [Models](https://github.com/ultralytics/yolov5/tree/master/models)
-and [datasets](https://github.com/ultralytics/yolov5/tree/master/data) download automatically from the latest
-YOLOv5 [release](https://github.com/ultralytics/yolov5/releases). Training times for YOLOv5n/s/m/l/x are
-1/2/4/6/8 days on a V100 GPU ([Multi-GPU](https://github.com/ultralytics/yolov5/issues/475) times faster). Use the
-largest `--batch-size` possible, or pass `--batch-size -1` for
-YOLOv5 [AutoBatch](https://github.com/ultralytics/yolov5/pull/5092). Batch sizes shown for V100-16GB.
-
-```bash
-python train.py --data coco.yaml --cfg yolov5n.yaml --weights '' --batch-size 128
-                                       yolov5s                                64
-                                       yolov5m                                40
-                                       yolov5l                                24
-                                       yolov5x                                16
+3. Edit core/config.py to configure  
+```bashrc
+--vocfog_traindata_dir'  = '/data/vdd/liuwenyu/data_vocfog/train/JPEGImages/'
+--vocfog_valdata_dir'    = '/data/vdd/liuwenyu/data_vocfog/val/JPEGImages/'
+--train_path             = './data/dataset_fog/voc_norm_train.txt'
+--test_path              = './data/dataset_fog/voc_norm_test.txt'
+--class_name             = './data/classes/vocfog.names'
 ```
+4. Train and Evaluate
+```bash  
+$ python train.py # we trained our model from scratch.  
+$ python evaluate.py   
+$ cd ./experiments/.../mAP & python main.py 
+``` 
+5. More details of Preparing dataset or Train with your own dataset  
+   reference the implementation [tensorflow-yolov3](https://github.com/YunYang1994/tensorflow-yolov3).
+   
+# Train and Evaluate on low_light images
+The overall process is the same as above, run the *_lowlight.py to train or evaluate.
 
-<img width="800" src="https://user-images.githubusercontent.com/26833433/90222759-949d8800-ddc1-11ea-9fa1-1c97eed2b963.png">
+# Acknowledgments
 
-</details>
+The code is based on [tensorflow-yolov3](https://github.com/YunYang1994/tensorflow-yolov3), [exposure](https://github.com/yuanming-hu/exposure).
 
-## <div align="center">Improvement</div>
-In the HDIP.py, each filter and some other modules are included.
+# Citation
 
-## <div align="center">Future work</div>
-⭐ This code will be completely released after our article is received！！！！⭐ ⭐ Please wait patiently！！！Thank you！！！⭐ 
+```shell
+@inproceedings{liu2022imageadaptive,
+  title={Image-Adaptive YOLO for Object Detection in Adverse Weather Conditions},
+  author={Liu, Wenyu and Ren, Gaofeng and Yu, Runsheng and Guo, Shi and Zhu, Jianke and Zhang, Lei},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2022}
+}
 
-## <div align="center">Acknowledgements</div>
-This code is built on [YOLOv5 (PyTorch)](https://github.com/ultralytics/yolov5). We thank the authors for sharing the codes.
-
+@article{liu2022improving,
+  title={Improving Nighttime Driving-Scene Segmentation via Dual Image-adaptive Learnable Filters},
+  author={Liu, Wenyu and Li, Wentong and Zhu, Jianke and Cui, Miaomiao and Xie, Xuansong and Zhang, Lei},
+  journal={arXiv e-prints},
+  pages={arXiv--2207},
+  year={2022}
+}
+```

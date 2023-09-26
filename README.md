@@ -1,4 +1,4 @@
-# Image-Adaptive YOLO for Object Detection in Adverse Weather Conditions
+# Feature Adaptive YOLO for remote sensing detection in adverse weather conditions
 ####  Accepted by AAAI 2022 [[arxiv]](https://arxiv.org/abs/2112.08088) 
 Wenyu Liu, Gaofeng Ren, Runsheng Yu, Shi Guo, [Jianke Zhu](https://person.zju.edu.cn/jkzhu/645901.html), [Lei Zhang](https://web.comp.polyu.edu.hk/cslzhang/)
       

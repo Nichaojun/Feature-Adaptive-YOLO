@@ -33,6 +33,13 @@ Fixed the "HFDIP" parameter, allowing it to control whether to enable the filter
 
 Reproduced Togethernet algorithm.
 
+| Date       | Updates                                 | Bug Fixes                                         |
+|------------|-----------------------------------------|---------------------------------------------------|
+| 2023-03-13 | Reproduced IA-YOLO algorithm, achieving results close to the original paper on RTTS dataset. | Fixed the issue of incorrect image size reading in FA-YOLO, and added a new data augmentation module. |
+| 2023-03-21 | Reproduced GDIP-YOLO algorithm.         | Fixed the "HFDIP" parameter, allowing it to control whether to enable the filtering module.         |
+| 2023-04-12 | Reproduced Togethernet algorithm.      |                                                   |
+
+
 ## Datasets and Models
 
 | Datasets and Models                            | Links                                              |

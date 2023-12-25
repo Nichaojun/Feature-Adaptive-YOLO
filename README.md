@@ -1,30 +1,35 @@
 # Feature Adaptive YOLO for remote sensing detection in adverse weather conditions
-####  Accepted by VCIP 2023 [[Baidu Cloud]](https://pan.baidu.com/s/1636ofSq77uXaqAlRjs4HEQ?pwd=70ts) 
+##  Accepted by VCIP 2023 [[Baidu Cloud]](https://pan.baidu.com/s/1636ofSq77uXaqAlRjs4HEQ?pwd=70ts) 
 [Chaojun Ni](https://github.com/Nichaojun), Wenhui Jiang, Chao Cai, Qishou Zhu, [**Yuming Fang**](http://sim.jxufe.cn/JDMKL/ymfang.html)
 
 ![PDF Link](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/1.1.png)
 
 
-# Update
-****Date: 2023-05-XX****
+## Update
+### Date: 2023-05-XX
 
-<font size=50>Updates:</font>
+#### Updates:
 
 Reproduced IA-YOLO algorithm, achieving results close to the original paper on RTTS dataset.
 
-Bug Fixes:
+#### Bug Fixes:
 
 Fixed the issue of incorrect image size reading in FA-YOLO, and added a new data augmentation module.
 
-Project Update Log - May 17, 2023
-Date: 2023-05-17
-Updates:
+### Date: 2023-05-17
+
+#### Updates:
+
 Reproduced GDIP-YOLO algorithm.
-Bug Fixes:
+
+#### Bug Fixes:
+
 Fixed the "HFDIP" parameter, allowing it to control whether to enable the filtering module.
-Project Update Log - May 24, 2023
-Date: 2023-05-24
-Updates:
+
+#### Date: 2023-05-24
+
+### Updates:
+
 Reproduced Togethernet algorithm.
 
 # Installation

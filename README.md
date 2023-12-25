@@ -6,8 +6,7 @@
 
 
 # Update
-Project Update Log - May 2023
-Date: 2023-05-XX
+**Date: 2023-05-XX**
 Updates:
 Reproduced IA-YOLO algorithm, achieving results close to the original paper on RTTS dataset.
 Bug Fixes:
@@ -21,10 +20,9 @@ Bug Fixes:
 Fixed the "HFDIP" parameter, allowing it to control whether to enable the filtering module.
 Project Update Log - May 24, 2023
 Date: 2023-05-24
-
 Updates:
 Reproduced Togethernet algorithm.
-#### "Improving Nighttime Driving-Scene Segmentation via Dual Image-adaptive Learnable Filters". [[arxiv]](https://arxiv.org/abs/2207.01331) [[code]]( https://github.com/wenyyu/IA-Seg)
+
 # Installation
 ```bash
 $ git clone https://github.com/wenyyu/Image-Adaptive-YOLO.git  

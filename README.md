@@ -26,9 +26,9 @@ Reproduced GDIP-YOLO algorithm.
 
 Fixed the "HFDIP" parameter, allowing it to control whether to enable the filtering module.
 
-#### Date: 2023-05-24
+### Date: 2023-05-24
 
-### Updates:
+#### Updates:
 
 Reproduced Togethernet algorithm.
 

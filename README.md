@@ -2,7 +2,6 @@
 ##  Accepted by VCIP 2023 [[Baidu Cloud]](https://pan.baidu.com/s/1636ofSq77uXaqAlRjs4HEQ?pwd=70ts) 
 [Chaojun Ni](https://github.com/Nichaojun), Wenhui Jiang, Chao Cai, Qishou Zhu, [**Yuming Fang**](http://sim.jxufe.cn/JDMKL/ymfang.html)
 
-![PDF Link](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/1.1.png)
 | ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/1.1.png) | 
 |:--:| 
 | *image_caption* |

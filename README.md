@@ -6,7 +6,24 @@
 
 
 # Update
-The image-adaptive filtering techniques used in the segmentation task can be found in our TCSVT 2023 paper.
+Project Update Log - May 2023
+Date: 2023-05-XX
+Updates:
+Reproduced IA-YOLO algorithm, achieving results close to the original paper on RTTS dataset.
+Bug Fixes:
+Fixed the issue of incorrect image size reading in FA-YOLO, and added a new data augmentation module.
+
+Project Update Log - May 17, 2023
+Date: 2023-05-17
+Updates:
+Reproduced GDIP-YOLO algorithm.
+Bug Fixes:
+Fixed the "HFDIP" parameter, allowing it to control whether to enable the filtering module.
+Project Update Log - May 24, 2023
+Date: 2023-05-24
+
+Updates:
+Reproduced Togethernet algorithm.
 #### "Improving Nighttime Driving-Scene Segmentation via Dual Image-adaptive Learnable Filters". [[arxiv]](https://arxiv.org/abs/2207.01331) [[code]]( https://github.com/wenyyu/IA-Seg)
 # Installation
 ```bash

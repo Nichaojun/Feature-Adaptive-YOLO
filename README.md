@@ -8,7 +8,7 @@
 # Update
 ****Date: 2023-05-XX****
 
-<font size="10">Updates:</font>
+<font size="50">Updates:</font>
 
 Reproduced IA-YOLO algorithm, achieving results close to the original paper on RTTS dataset.
 

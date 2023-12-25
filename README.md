@@ -1,7 +1,9 @@
 # Feature Adaptive YOLO for remote sensing detection in adverse weather conditions
 ####  Accepted by VCIP 2023 [[Baidu Cloud]](https://pan.baidu.com/s/1636ofSq77uXaqAlRjs4HEQ?pwd=70ts) 
 [Chaojun Ni](https://github.com/Nichaojun), Wenhui Jiang, Chao Cai, Qishou Zhu, [**Yuming Fang**](http://sim.jxufe.cn/JDMKL/ymfang.html)
+
 ![contents](picture/1.1.pdf)
+
 
 # Update
 The image-adaptive filtering techniques used in the segmentation task can be found in our TCSVT 2023 paper.

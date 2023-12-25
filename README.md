@@ -3,7 +3,7 @@
 [Chaojun Ni](https://github.com/Nichaojun), Wenhui Jiang, Chao Cai, Qishou Zhu, [**Yuming Fang**](http://sim.jxufe.cn/JDMKL/ymfang.html)
 
 ![1.1.pdf](picture1.1.pdf)
-![PDF Link](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/1.pdf?raw=true)
+![PDF Link](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/1.1.pdf?raw=true)
 
 
 # Update

@@ -7,31 +7,6 @@
 |*Fig. 1. Algorithm framework diagram of FA-YOLO.*|
 
 ## Update
-### Date: 2023-03-13
-
-#### Updates:
-
-Reproduced IA-YOLO algorithm, achieving results close to the original paper on RTTS dataset.
-
-#### Bug Fixes:
-
-Fixed the issue of incorrect image size reading in FA-YOLO, and added a new data augmentation module.
-
-### Date: 2023-03-21
-
-#### Updates:
-
-Reproduced GDIP-YOLO algorithm.
-
-#### Bug Fixes:
-
-Fixed the "HFDIP" parameter, allowing it to control whether to enable the filtering module.
-
-### Date: 2023-04-12
-
-#### Updates:
-
-Reproduced Togethernet algorithm.
 
 | Date       | Updates                                 | Bug Fixes                                         |
 |------------|-----------------------------------------|---------------------------------------------------|

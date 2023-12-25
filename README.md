@@ -6,7 +6,7 @@
 
 
 ## Update
-### Date: 2023-05-XX
+### Date: 2023-03-13
 
 #### Updates:
 
@@ -16,7 +16,7 @@ Reproduced IA-YOLO algorithm, achieving results close to the original paper on R
 
 Fixed the issue of incorrect image size reading in FA-YOLO, and added a new data augmentation module.
 
-### Date: 2023-05-17
+### Date: 2023-03-21
 
 #### Updates:
 
@@ -26,7 +26,7 @@ Reproduced GDIP-YOLO algorithm.
 
 Fixed the "HFDIP" parameter, allowing it to control whether to enable the filtering module.
 
-### Date: 2023-05-24
+### Date: 2023-04-12
 
 #### Updates:
 

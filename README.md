@@ -6,6 +6,13 @@
 |:--:| 
 |*Fig. 1. Algorithm framework diagram of FA-YOLO.*|
 
+| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/12.png) | 
+|:--:| 
+|*Fig. 2. The structure of Adaptive Filters.*|
+
+| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/3.png) | 
+|:--:| 
+|*Fig. 3. The structure of DG-Head.*|
 ## Update
 
 | Date       | Updates                                 | Bug Fixes                                         |
@@ -28,7 +35,7 @@
 | **DIOR remote sensing dataset with fog**      | [DIOR-FOG](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset/tree/master/Dataset) |
 
 
-# Quick test
+## Result
 ```bash  
 # put checkpoint model in the corresponding directory 
 # change the data and model paths in core/config.py

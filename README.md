@@ -32,23 +32,22 @@ Fixed the "HFDIP" parameter, allowing it to control whether to enable the filter
 
 Reproduced Togethernet algorithm.
 
-# Installation
-```bash
-$ git clone https://github.com/wenyyu/Image-Adaptive-YOLO.git  
-$ cd Image-Adaptive-YOLO  
-# Require python3 and tensorflow
-$ pip install -r ./docs/requirements.txt
-```
-
 # Datasets and Models
 [PSCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) [RTTS](https://sites.google.com/view/reside-dehaze-datasets/reside-%CE%B2) [ExDark](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset/tree/master/Dataset)  
 Voc_foggy_test & Voc_dark_test & Models: [Google Drive](https://drive.google.com/drive/folders/1P0leuiGHH69kVxyNVFuiCdCYXyYquPqM), [Baidu Netdisk](https://pan.baidu.com/s/1GQE_80rEzs0uCrzauHxwdw) (key: iayl)  
+
 # Quick test
 ```bash  
 # put checkpoint model in the corresponding directory 
 # change the data and model paths in core/config.py
 $ python evaluate.py 
 ```
+# Installation
+```bash
+$ git clone https://github.com/wenyyu/Image-Adaptive-YOLO.git  
+$ cd Image-Adaptive-YOLO  
+# Require python3 and tensorflow
+$ pip install -r ./docs/requirements.txt
 
 ![image](https://user-images.githubusercontent.com/24246792/146735760-4fcf7be9-fdd2-4694-8d91-d254144c52eb.png)
 

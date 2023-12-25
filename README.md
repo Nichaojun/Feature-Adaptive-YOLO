@@ -7,9 +7,13 @@
 
 # Update
 ****Date: 2023-05-XX****
+
 Updates:
+
 Reproduced IA-YOLO algorithm, achieving results close to the original paper on RTTS dataset.
+
 Bug Fixes:
+
 Fixed the issue of incorrect image size reading in FA-YOLO, and added a new data augmentation module.
 
 Project Update Log - May 17, 2023

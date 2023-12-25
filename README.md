@@ -1,5 +1,5 @@
 # Feature Adaptive YOLO for remote sensing detection in adverse weather conditions
-####  Accepted by VCIP 2023 [[arxiv]](https://arxiv.org/abs/2112.08088) 
+####  Accepted by VCIP 2023 [[Baidu Cloud]](链接：https://pan.baidu.com/s/1636ofSq77uXaqAlRjs4HEQ?pwd=70ts) 
 Wenyu Liu, Gaofeng Ren, Runsheng Yu, Shi Guo, [Jianke Zhu](https://person.zju.edu.cn/jkzhu/645901.html), [Lei Zhang](https://web.comp.polyu.edu.hk/cslzhang/)
       
 ![image](https://user-images.githubusercontent.com/24246792/146731560-fa69fe86-fbf8-4a96-8bd8-a500490ec41d.png)

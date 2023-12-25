@@ -4,7 +4,7 @@
 
 | ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/1.1.png) | 
 |:--:| 
-| ***Fig. 1. Algorithm framework diagram of FA-YOLO. ***|
+|*Fig. 1. Algorithm framework diagram of FA-YOLO.*|
 
 ## Update
 ### Date: 2023-03-13

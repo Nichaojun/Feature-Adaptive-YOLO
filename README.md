@@ -1,5 +1,5 @@
 # Feature Adaptive YOLO for remote sensing detection in adverse weather conditions
-##  Accepted by VCIP 2023 [[Baidu Cloud]](https://pan.baidu.com/s/1636ofSq77uXaqAlRjs4HEQ?pwd=70ts) 
+##  Accepted by VCIP 2023 [[IEEE]](https://ieeexplore.ieee.org/document/10402716) 
 [Chaojun Ni](https://github.com/Nichaojun), [**Wenhui Jiang**](http://sim.jxufe.edu.cn/down/show-31909.aspx?id=98), Chao Cai, Qishou Zhu, [**Yuming Fang**](http://sim.jxufe.edu.cn/down/show-1226.aspx?id=98)
 
 | ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/1.1.png) | 

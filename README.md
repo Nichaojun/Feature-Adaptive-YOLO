@@ -1,4 +1,4 @@
-# ⭐⭐ Feature Adaptive YOLO for remote sensing detection in adverse weather conditions ⭐⭐
+# ⭐ Feature Adaptive YOLO for remote sensing detection in adverse weather conditions ⭐
 ##  Accepted by VCIP 2023 [[IEEE]](https://ieeexplore.ieee.org/document/10402716) 
 [Chaojun Ni](https://github.com/Nichaojun), [**Wenhui Jiang**](http://sim.jxufe.edu.cn/down/show-31909.aspx?id=98), Chao Cai, Qishou Zhu, [**Yuming Fang**](http://sim.jxufe.edu.cn/down/show-1226.aspx?id=98)
 

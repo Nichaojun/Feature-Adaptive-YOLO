@@ -46,6 +46,10 @@
 | IA-YOLO         | CSP-Darknet53      | 61.7                  | 39.9              | 55.8                         | 34.5                     |
 | Ours            | CSP-Darknet53      | **70.3**              | **47.8**          | **60.8**                     | **40.0**                 |
 
+| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/t1.png)        | ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/t2.png) |
+|:-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| *Performance comparisons with state-of-the-art methods on the Dior\_Foggy and Dior\_Severe\_Foggy.*  | *Performance comparisons with state-of-the-art methods on the RTTS*     |
+
 ## Problems
 
 | ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/0.4.png) |
@@ -61,14 +65,9 @@
 
 
 ## AFM
-| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/12.png) |
-|:----------------------------------------------------------------------------------------------|
-| *The structure of Adaptive Filters*                                                           |                                                                                             |
-
-## DG-Head
-| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/3.png) |
-|:---------------------------------------------------------------------------------------------|
-| *The structure of DG-Head.*                                                          |                                                                                             |
+| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/12.png) |    ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/3.png)     |
+|:----------------------------------------------------------------------------------------------|----------------------------------- |
+| *The structure of Adaptive Filters*                                                           |            *The structure of DG-Head.*                   |
 
 
 ## Visualization

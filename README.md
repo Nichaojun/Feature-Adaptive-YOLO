@@ -42,7 +42,7 @@
 |   *Fig. 1. Algorithm framework diagram of FA-YOLO.*    |
 
 
-## AFM
+## AFM and DG-Head
 | ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/12.png) |    ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/3.png)     |
 |:----------------------------------------------------------------------------------------------|----------------------------------- |
 | *The structure of Adaptive Filters*                                                           |            *The structure of DG-Head.*                   |

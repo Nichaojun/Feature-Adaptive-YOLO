@@ -45,3 +45,27 @@
 | FFA-YOLOV5S     | CSP-Darknet53      | 63.2                  | 42.3              | 54.5                         | 34.7                     |
 | IA-YOLO         | CSP-Darknet53      | 61.7                  | 39.9              | 55.8                         | 34.5                     |
 | Ours            | CSP-Darknet53      | **70.3**              | **47.8**          | **60.8**                     | **40.0**                 |
+
+## Framework
+
+| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/0.4.png) |
+|:-----------------------------------------------------------------------------------------------|
+| *Failure detection examples from the YOLOV5 model. (a) Clean images. (b) The same image under adverse weather conditions. (c) Activations of feature maps from YOLOV5. (d) Detection results, where green boxes indicate correct detections, red boxes indicate false detections, orange boxes indicate missed detections.*                                                                                             |
+
+
+|    ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/1.1.png)      |
+|:-----|
+|   *Fig. 1. Algorithm framework diagram of FA-YOLO.*    |
+
+
+| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/1.1.png) |
+|:-----------------------------------------------------------------------------------------------|
+| *The structure of Adaptive Filters*|                                                                                             |
+
+| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/3.png) |
+|:---------------------------------------------------------------------------------------------|
+| *The structure of DG-Head.*                                                          |                                                                                             |
+
+| ![space-1.jpg](https://github.com/Nichaojun/Feature-Adaptive-YOLO/blob/master/picture/3.png) |
+|:---------------------------------------------------------------------------------------------|
+| *Visualization of detection results. (a) Clean images. (b) The same image under adverse weather conditions. (c) Results of IA-YOLO. (d) Results of FA-YOLO, where green boxes indicate correct detections, red boxes indicate false detections, and orange boxes indicate missed detections.*          

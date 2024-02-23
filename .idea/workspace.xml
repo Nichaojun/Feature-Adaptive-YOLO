@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b11fa88-7537-4007-a297-08315d5a159d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/picture/0.4.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/6.4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/0.4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/1.1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/6.4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/dataset0.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +46,17 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/biyesheji/yuan/Fe-Fool-linux/code&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Administrator/Documents/11/Feature-Adaptive-YOLO/picture"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\11\Feature-Adaptive-YOLO\picture" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Documents\11\Feature-Adaptive-YOLO\others\DSNet" />
       <recent name="C:\Users\Administrator\Documents\11\Feature-Adaptive-YOLO\others" />
@@ -73,7 +86,7 @@
       <workItem from="1705889513038" duration="278000" />
       <workItem from="1706521590829" duration="571000" />
       <workItem from="1706575981428" duration="124000" />
-      <workItem from="1708669609680" duration="800000" />
+      <workItem from="1708669609680" duration="1281000" />
     </task>
     <servers />
   </component>

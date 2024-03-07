@@ -36,13 +36,13 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Administrator/Documents/11/Feature-Adaptive-YOLO/picture"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Documents/11/Feature-Adaptive-YOLO/picture&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Documents\11\Feature-Adaptive-YOLO\picture" />
@@ -76,7 +76,10 @@
       <workItem from="1705889513038" duration="278000" />
       <workItem from="1706521590829" duration="571000" />
       <workItem from="1706575981428" duration="124000" />
-      <workItem from="1708669609680" duration="4096000" />
+      <workItem from="1708669609680" duration="5957000" />
+      <workItem from="1708740053935" duration="589000" />
+      <workItem from="1708999087798" duration="778000" />
+      <workItem from="1709393860258" duration="592000" />
     </task>
     <servers />
   </component>

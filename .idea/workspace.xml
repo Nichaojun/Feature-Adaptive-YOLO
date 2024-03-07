@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b11fa88-7537-4007-a297-08315d5a159d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Feature-Adaptive-YOLO/models/dip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feature-Adaptive-YOLO/models/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feature-Adaptive-YOLO/models/util_filters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +83,7 @@
       <workItem from="1708740053935" duration="589000" />
       <workItem from="1708999087798" duration="778000" />
       <workItem from="1709393860258" duration="592000" />
+      <workItem from="1709817857623" duration="71000" />
     </task>
     <servers />
   </component>
